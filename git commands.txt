@@ -1,0 +1,28 @@
+$ git init
+
+$ git remote add origin “https://github.com/git-test-jaz/hello-git.git”
+
+$ git pull origin master
+
+//branch locally
+$ git branch hello-git-branch
+
+
+$ git checkout hello-git-branch
+
+//list
+$ ls
+
+//after adding file
+$ git add file-2.txt
+
+
+//save 
+$ git commit –m “add file”
+
+//create branch on remote server
+$ git push origin hello-git-branch
+
+
+$ git checkout -b <BRANCH_NAME>
+
