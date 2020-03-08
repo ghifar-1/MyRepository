@@ -22,6 +22,7 @@ $ git commit –m “add file”
 
 //create branch on remote server
 $ git push origin hello-git-branch
+$ git push --set-upstream origin hello-git-branch
 
 
 $ git checkout -b <BRANCH_NAME>
